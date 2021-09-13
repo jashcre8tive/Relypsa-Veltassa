@@ -7,8 +7,8 @@
     <layout name="npnxnanbnsnfns10110000101" font="Open Sans" controllayout="npnxnanbnsnfns10110000101" colorscheme="npnxnanbnsnfns10110000101" string_table="npnxnanbnsnfns10110000101" />
     <layout name="pxabnsnfns10110000100" font="Open Sans" controllayout="pxabnsnfns10110000100" colorscheme="npnxnanbnsnfns10110000101" string_table="npnxnanbnsnfns10110000101" />
     <layout name="pnxnanbnsnfns10110000101" font="Open Sans" controllayout="pnxnanbnsnfns10110000101" colorscheme="npnxnanbnsnfns10110000101" string_table="npnxnanbnsnfns10110000101" />
-    <layout name="npxnanbnsnfns10110000101" font="Open Sans" controllayout="npxnanbnsnfns10110000101" colorscheme="npnxnanbnsnfns10110000101" string_table="npnxnanbnsnfns10110000101" />
     <layout name="pxnanbnsnfns10110000101" font="Open Sans" controllayout="pxnanbnsnfns10110000101" colorscheme="npnxnanbnsnfns10110000101" string_table="npnxnanbnsnfns10110000101" />
+    <layout name="npxnanbnsnfns10110000101" font="Open Sans" controllayout="npxnanbnsnfns10110000101" colorscheme="npnxnanbnsnfns10110000101" string_table="npnxnanbnsnfns10110000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -230,13 +230,13 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnanbnsnfns10110000101">
+    <control_layout name="pxnanbnsnfns10110000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
-      <control name="previous" enabled="false" />
+      <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
@@ -253,13 +253,13 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxnanbnsnfns10110000101">
+    <control_layout name="npxnanbnsnfns10110000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
-      <control name="previous" enabled="true" />
+      <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
@@ -1313,21 +1313,6 @@
         <slidelink slideid="_player.6qzqMDI2V6P" displaytext="Main Scene" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6qzqMDI2V6P.6cFXROcv5wj" displaytext="Main Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6qzqMDI2V6P.6p86oD12r4t" displaytext="Value_Proposition" expand="false" type="slide" />
-            <slidelink slideid="_player.6qzqMDI2V6P.5mXab6t8sw3" displaytext="circ_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6qzqMDI2V6P.5fxUcZu8oI1" displaytext="circ_2" expand="false" type="slide" />
-            <slidelink slideid="_player.6qzqMDI2V6P.6pQpp943WoH" displaytext="circ_3" expand="false" type="slide" />
-            <slidelink slideid="_player.6qzqMDI2V6P.5glEOqLsqC0" displaytext="circ_4" expand="false" type="slide" />
-            <slidelink slideid="_player.6qzqMDI2V6P.5c6ji18CChT" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6qzqMDI2V6P.6IxmE2UzrtO" displaytext="circ_4" expand="false" type="slide" />
-            <slidelink slideid="_player.6qzqMDI2V6P.6RLE5to4bRl" displaytext="circ_4" expand="false" type="slide" />
-            <slidelink slideid="_player.6qzqMDI2V6P.684lI6Oi5s7" displaytext="circ_4" expand="false" type="slide" />
-            <slidelink slideid="_player.6qzqMDI2V6P.5w8WkfO7yET" displaytext="circ_4" expand="false" type="slide" />
-            <slidelink slideid="_player.6qzqMDI2V6P.6hjWDS7t4tU" displaytext="circ_4" expand="false" type="slide" />
-            <slidelink slideid="_player.6qzqMDI2V6P.6meJw4I4uTY" displaytext="circ_4" expand="false" type="slide" />
-            <slidelink slideid="_player.6qzqMDI2V6P.61klYP3X4OQ" displaytext="circ_4" expand="false" type="slide" />
-            <slidelink slideid="_player.6qzqMDI2V6P.6D7HfRTsx02" displaytext="circ_4" expand="false" type="slide" />
-            <slidelink slideid="_player.6qzqMDI2V6P.61dRpUvc94s" displaytext="circ_4" expand="false" type="slide" />
             <slidelink slideid="_player.6qzqMDI2V6P.6WMmfh3Prmw" displaytext="Main Menu" expand="false" type="slide" />
             <slidelink slideid="_player.6qzqMDI2V6P.5hrmBq1eDu5" displaytext="menu" expand="false" type="slide" />
             <slidelink slideid="_player.6qzqMDI2V6P.68qqF5xMgIG" displaytext="Untitled Slide" expand="false" type="slide" />
